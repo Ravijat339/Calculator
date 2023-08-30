@@ -1,4 +1,4 @@
- 
+  
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
  
 
@@ -13,16 +13,22 @@ body{
     width: 100%;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,0.8016456582633054) 0%, rgba(166,241,216,0.9276960784313726) 0%, rgba(197,235,227,0.7904411764705882) 36%, rgba(132,224,242,1) 80%);
+    background-color: #7f95d0c9;
 }
+    
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
 
+}
 .container{
     border: 1px solid black;
-    padding: 20px;
+    padding: 30px;
     border-radius: 16px;
     background: transparent;
     background-color: rgba(250, 250, 247, 0.741);
@@ -59,4 +65,7 @@ button{
 }
 .eql {
     background-color: rgb(238, 195, 115);
+}
+footer{
+  margin-top: 15px;
 }
